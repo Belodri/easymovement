@@ -1,0 +1,44 @@
+{
+    "id": "MODULE_ID",
+    "title": "TITLE",
+    "version": "#{VERSION}#",
+    "description": "DESC",
+    "authors": [{
+        "name": "Belodri",
+        "url": "https://github.com/Belodri",
+        "discord": "Belodri#1096"
+    }],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "esmodules": ["scripts/module.mjs"],
+    "styles": ["styles/moduleStyles.css"],
+    "compatibility": {
+        "minimum": 13,
+        "verified": "13.341",
+        "maximum": 13
+    },
+    "url": "#{URL}#",
+    "manifest": "#{MANIFEST}#",
+    "download": "#{DOWNLOAD}#",
+    "license": "LICENSE",
+    "readme": "README.md",
+    "flags": {
+        "hotReload": {
+            "extensions": [
+                "css",
+                "hbs",
+                "json"
+            ],
+            "paths": [
+                "styles",
+                "templates",
+                "lang"
+            ]
+        }
+    }
+}

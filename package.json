@@ -1,0 +1,23 @@
+{
+    "name": "MODULE_ID",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "DESC",
+    "main": "scripts/module.mjs",
+    "repository": {
+        "type": "git",
+        "url": "github:belodri/_INSERT_REPO_URL_"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "createFoundrySymlinks": "node ./tools/create-foundry-symlinks.mjs"
+    },
+    "author": "David Haas <dave.belodri@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^9.15.0",
+        "eslint-plugin-jsdoc": "^50.5.0",
+        "fs-extra": "^11.3.0",
+        "yargs": "^17.7.2"
+    }
+}
