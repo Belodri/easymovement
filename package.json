@@ -1,12 +1,12 @@
 {
-    "name": "MODULE_ID",
+    "name": "easymovement",
     "version": "1.0.0",
     "type": "module",
-    "description": "DESC",
+    "description": "A Foundry VTT module allowing users to simplify and customize the way they move their tokens.",
     "main": "scripts/module.mjs",
     "repository": {
         "type": "git",
-        "url": "github:belodri/_INSERT_REPO_URL_"
+        "url": "github:belodri/easymovement"
     },
     "scripts": {
         "lint": "eslint .",

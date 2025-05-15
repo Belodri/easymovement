@@ -1,0 +1,31 @@
+{
+    "EASYMOVEMENT": {
+        "Notifications": {
+            "registrationError": "EasyMovement | Error: Failed to modify token drag behavior. The module may not function as expected. Please check the console (F12) for more details."
+        },
+        "Settings": {
+            "modifyDragBehavior": {
+                "Name": "Enable Right-Click Waypoints",
+                "Hint": "Enables modified right-click behavior during token dragging. Right-click will add a waypoint, CTRL/CMD + Right-click will remove the last waypoint. Requires a reload if changed."
+            },
+            "PlaceholderKeys": {
+                "names": {
+                    "1": "Movement Action Slot 1",
+                    "2": "Movement Action Slot 2",
+                    "3": "Movement Action Slot 3",
+                    "4": "Movement Action Slot 4",
+                    "5": "Movement Action Slot 5",
+                    "6": "Movement Action Slot 6"
+                },
+                "hints": {
+                    "1": "Select a movement type to quickly activate by pressing the assigned hotkey. Leave blank to disable.",
+                    "2": "Select a movement type to quickly activate by pressing the assigned hotkey. Leave blank to disable.",
+                    "3": "Select a movement type to quickly activate by pressing the assigned hotkey. Leave blank to disable.",
+                    "4": "Select a movement type to quickly activate by pressing the assigned hotkey. Leave blank to disable.",
+                    "5": "Select a movement type to quickly activate by pressing the assigned hotkey. Leave blank to disable.",
+                    "6": "Select a movement type to quickly activate by pressing the assigned hotkey. Leave blank to disable."
+                }
+            }
+        }
+    }
+}

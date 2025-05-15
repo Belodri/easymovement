@@ -1,8 +1,8 @@
 {
-    "id": "MODULE_ID",
-    "title": "TITLE",
+    "id": "easymovement",
+    "title": "EasyMovement",
     "version": "#{VERSION}#",
-    "description": "DESC",
+    "description": "A module allowing users to simplify and customize the way they move their tokens.", 
     "authors": [{
         "name": "Belodri",
         "url": "https://github.com/Belodri",
@@ -16,10 +16,9 @@
         }
     ],
     "esmodules": ["scripts/module.mjs"],
-    "styles": ["styles/moduleStyles.css"],
     "compatibility": {
-        "minimum": 13,
-        "verified": "13.341",
+        "minimum": "13.342",
+        "verified": "13.342",
         "maximum": 13
     },
     "url": "#{URL}#",
@@ -30,13 +29,9 @@
     "flags": {
         "hotReload": {
             "extensions": [
-                "css",
-                "hbs",
                 "json"
             ],
             "paths": [
-                "styles",
-                "templates",
                 "lang"
             ]
         }
